@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reestar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <h1 class="header">Reestar</h1>
+            <ul>
+                <li>Home |</li>
+                <li>Receipe |</li>
+                <li>Contact </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="products">
+        <div class="box">
+            <img src="C:\Users\melwi\Downloads\4.jpg">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias ipsam voluptatem, ipsum laudantium iste quo excepturi officiis libero a, voluptate nostrum minus nemo in sint, harum iure praesentium rem exercitationem?</p>
+            <p class="dark">Order Now</p>
+        </div>
+        <div class="box">
+            <img src="C:\Users\melwi\Downloads\5.jpg">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias ipsam voluptatem, ipsum laudantium iste quo excepturi officiis libero a, voluptate nostrum minus nemo in sint, harum iure praesentium rem exercitationem?</p>
+            <p class="dark">Order Now</p>
+        </div>
+        <div class="box">
+            <img src="C:\Users\melwi\Downloads\6.jpg">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias ipsam voluptatem, ipsum laudantium iste quo excepturi officiis libero a, voluptate nostrum minus nemo in sint, harum iure praesentium rem exercitationem?</p>
+            <p class="dark">Order Now</p>
+        </div>
+    </div>
+    <div class="contact">
+        <center>
+        <h2>Contact Us</h2>
+        <form>
+            <table>
+                <tr>
+                    <td>Name:</td> <td><input type="text" placeholder="Name"></td>
+                </tr>
+                <tr>
+                    <td>Age:</td> <td><input type="number" placeholder="Age"></td>
+                </tr>
+                <tr>
+                    <td>Email:</td> <td><input type="email" placeholder="Email"></td>
+                </tr>
+            </table>
+        </form>
+        <button class="p1" id="send">Send</button>
+        </center>
+    </div>
+
+    <script>
+        var send = document.getElementById("send")
+        send.addEventListener("click", function(){
+            alert("Submitted Successfully")
+        })
+    </script>
+</body>
+</html>
